@@ -11,10 +11,14 @@ body {
 
 header {
   height: 69px;
+  background-color: Black;
   border-bottom: 1px solid SeaShell;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
 header img {
@@ -28,4 +32,31 @@ nav span {
 
 a {
   color: SeaShell;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.description {
+  background-color: Black;
+  width: 100%;
 }
