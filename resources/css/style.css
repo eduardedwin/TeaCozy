@@ -1,3 +1,5 @@
+/* Universal styles */
+
 body {
   margin: 0 auto;
   padding: 0;
@@ -8,6 +10,17 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+div {
+  /* border: 2px solid white; */
+}
+
+/* Header section */
 
 header {
   height: 69px;
@@ -34,17 +47,19 @@ a {
   color: SeaShell;
 }
 
-h2, h4 {
-  margin: 0;
-  padding: 10px;
-}
+/* Main section */
 
 .main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   position: relative;
   padding-top: 70px;
+}
+
+.content, .main {
   margin: 0 auto;
+  padding-top: 70px;
 }
 
 #mission {
@@ -53,10 +68,15 @@ h2, h4 {
   width: 1200px;
   display: flex;
   align-items: center;
-  padding-top: 70px;
 }
 
 .description {
   background-color: Black;
   width: 100%;
+}
+
+/* Featured Tea section */
+
+#featured-tea {
+  width: 1000px;
 }
