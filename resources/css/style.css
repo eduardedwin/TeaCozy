@@ -80,3 +80,25 @@ a {
 #featured-tea {
   width: 1000px;
 }
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  margin: 5px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+p {
+  margin: 0 auto;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
