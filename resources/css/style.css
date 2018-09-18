@@ -11,7 +11,7 @@ body {
   text-align: center;
 }
 
-h2, h4 {
+h2, h4, h5 {
   margin: 0;
   padding: 10px;
 }
@@ -140,4 +140,18 @@ h3 {
 
 .city span {
   padding: 20px 0;
+}
+
+/* Contact section */
+
+.contact {
+  height: 200px;
+}
+
+.info {
+  margin: 15px 0;
+}
+
+.info h5 {
+  padding: 15px;
 }
