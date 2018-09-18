@@ -155,3 +155,10 @@ h3 {
 .info h5 {
   padding: 15px;
 }
+
+/* Footer section */
+
+footer {
+  text-align: left;
+  padding: 20px;
+}
